@@ -5,13 +5,14 @@ module.exports = {
   },
   extends: [
     'airbnb',
+    'prettier',
     'prettier/react',
   ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parse: 'babel-eslint',
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
